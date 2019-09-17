@@ -1,0 +1,11 @@
+Package: lab3
+Type: Package
+Title: Euclidean-Dijkstra
+Version: 1.0
+Date: 2019-09-17
+Author: c(person("Marc", "Pamies", email = "marpa961@student.liu.se", role = c("aut", "cre")),
+    person("Abhinay", "Krishna", email = "abhve999@student.liu.se", role = c("aut", "cre")))
+Maintainer: Marc Pamies <marpa961@student.liu.se>
+Description: Third lab from the course Advanced R Programming!!!
+License: GPL-2
+RoxygenNote: 6.1.1
