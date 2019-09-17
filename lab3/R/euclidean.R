@@ -6,8 +6,7 @@
 #' @param b A number.
 #' @return Greatest common divisor between \code{a} and \code{b}
 #' @seealso \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
-#' @aliases eucl euclidean_algorithm
-#' @family \code{\link{dijkstra}}
+#' @aliases eucl
 #' @examples
 #' euclidean(123612,13892347912)
 #' euclidean(100,1000)

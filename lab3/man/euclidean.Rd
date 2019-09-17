@@ -3,7 +3,6 @@
 \name{euclidean}
 \alias{euclidean}
 \alias{eucl}
-\alias{euclidean_algorithm}
 \title{Euclidean Algorithm}
 \usage{
 euclidean(a, b)
@@ -26,4 +25,3 @@ euclidean(100,1000)
 \seealso{
 \href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
 }
-\concept{\code{\link{dijkstra}}}

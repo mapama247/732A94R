@@ -1,12 +1,19 @@
-# 3.1.2 DIJKSTRA'S ALGORITHM
-
-# function that returns the shortest path from a given initial node to every other node in a graph
-# pseudocode: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
-# video: https://www.youtube.com/watch?v=pVfj6mxhdMw
+#' @title Dijkstra Algorithm
+#' 
+#' @description \code{dijkstra} finds the shortest path from a given node to every other node in a given graph.
+#'
+#' It picks the unvisited vertex with the lowest distance, calculates the distance through it to each unvisited neighbor, and updates the neighbor's distance if smaller.
+#' 
+#' @param graph A dataframe containing the nodes and weights of each vertex in the graph.
+#' @param init_node A number to identify the inital node.
+#' @return Vector of distances between \code{init_node} and every other node in \code{graph}
+#' @seealso \href{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}{Wikipedia}
+#' @aliases dij
+#' @examples
+#' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
 
 dijkstra <- function(graph,init_node){
-	
-	# assert that the arguments are correct
 	stopifnot( is.data.frame(graph) , is.numeric(init_node) , (init_node%in%graph$v1 | init_node%in%graph$v2) )
 	
 	num_of_nodes <- max(graph[,1])		# number of nodes in the graph
@@ -42,9 +49,3 @@ dijkstra <- function(graph,init_node){
 	}
 	return(distances)
 }
-
-wiki_graph<-data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
-			     v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
-			     w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
-dijkstra(wiki_graph, 1) # 0 7 9 20 20 11
-dijkstra(wiki_graph, 3) # 9 10 0 11 11 2
