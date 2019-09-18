@@ -14,7 +14,7 @@
 #' dijkstra(wiki_graph, 3)
 
 dijkstra <- function(graph,init_node){
-	stopifnot( is.data.frame(graph) , is.numeric(init_node) , (init_node%in%graph$v1 | init_node%in%graph$v2) )
+	stopifnot( is.data.frame(graph) , is.numeric(init_node) , (init_node%in%graph$v1 | init_node%in%graph$v2) , names(graph)==c("v1","v2","w") )
 	
 	num_of_nodes <- max(graph[,1])		# number of nodes in the graph
 	distances <- rep(Inf,num_of_nodes)		# vector of distances from each node to init_node
