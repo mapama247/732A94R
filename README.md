@@ -4,4 +4,4 @@
 
 ## Install:
 
-`devtools:install_github("[mapama247/732A94R]", subdir="lab3")`
+`devtools::install_github("mapama247/732A94R", subdir="lab3")`
