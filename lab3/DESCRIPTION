@@ -3,7 +3,7 @@ Type: Package
 Title: Euclidean-Dijkstra
 Version: 1.0
 Date: 2019-09-17
-Author@R: Marc Pamies and Abhinay Krishna
+Author: Marc Pamies and Abhinay Krishna
 Maintainer: Marc Pamies <marpa961@student.liu.se>
 Description: Third lab from the course Advanced R Programming!
 License: GPL-2
