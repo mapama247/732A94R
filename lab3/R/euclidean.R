@@ -1,6 +1,6 @@
 #' @title Euclidean Algorithm
 #' 
-#' @description \code{euclidean} finds the greatest common divisor of two integers.
+#' @description \code{euclidean} finds the greatest common divisor (GCD) of two integers.
 #' 
 #' @param a A number.
 #' @param b A number.

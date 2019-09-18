@@ -16,7 +16,7 @@ euclidean(a, b)
 Greatest common divisor between \code{a} and \code{b}
 }
 \description{
-\code{euclidean} finds the greatest common divisor of two integers.
+\code{euclidean} finds the greatest common divisor (GCD) of two integers.
 }
 \examples{
 euclidean(123612,13892347912)

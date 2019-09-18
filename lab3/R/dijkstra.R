@@ -7,7 +7,7 @@
 #' @param graph A dataframe containing the nodes and weights of each vertex in the graph.
 #' @param init_node A number to identify the inital node.
 #' @return Vector of distances between \code{init_node} and every other node in \code{graph}
-#' @seealso \href{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}{Wikipedia}
+#' @seealso \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
 #' @aliases dij
 #' @examples
 #' dijkstra(wiki_graph, 1)

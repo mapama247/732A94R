@@ -10,10 +10,13 @@
 \item{v2}{ending node, no unit}
 \item{w}{weight of the vertex between \code{v1} and \code{v2} , no unit}
 }}
+\source{
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
+}
 \usage{
 wiki_graph
 }
 \description{
-A dataset containing the graph used as example in Wikipedia.
+A dataset containing the graph used as example in the Wikipedia page of Dijkstra's algorithm.
 }
 \keyword{datasets}

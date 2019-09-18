@@ -24,3 +24,6 @@ It picks the unvisited vertex with the lowest distance, calculates the distance 
 dijkstra(wiki_graph, 1)
 dijkstra(wiki_graph, 3)
 }
+\seealso{
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
+}
