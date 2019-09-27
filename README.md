@@ -9,6 +9,7 @@ Advanced R Programming Course from Linköping University.
 ## Installation:
 
 ```R
+install.packages("devtools")
 devtools::install_github("mapama247/732A94R", subdir="lab3")
 ```
 
