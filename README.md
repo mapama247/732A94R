@@ -8,14 +8,8 @@ Advanced R Programming Course from Linköping University.
 
 ## Installation:
 
-### lab3 package:
 ```R
 devtools::install_github("mapama247/732A94R", subdir="lab3")
-```
-
-### lab4 package:
-```R
-devtools::install_github("mapama247/732A94R", subdir="lab4")
 ```
 
 ## License
