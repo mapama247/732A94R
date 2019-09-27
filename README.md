@@ -4,7 +4,7 @@ Advanced R Programming Course from Linköping University.
 
 ## Build status:
 
-[![Build Status](https://travis-ci.com/mapama247/732A94R.svg?token=yxggzpqgxBxZe745ysak&branch=master)](https://travis-ci.com/mapama247/732A94R)
+[![Build Status](https://travis-ci.org/mapama247/732A94R.svg?branch=master)](https://travis-ci.org/mapama247/732A94R)
 
 ## Installation:
 
